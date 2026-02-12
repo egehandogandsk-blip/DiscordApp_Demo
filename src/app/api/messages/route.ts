@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { Message } from "@prisma/client";
 
+export const dynamic = "force-dynamic";
+
 import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
 

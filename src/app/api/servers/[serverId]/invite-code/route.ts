@@ -1,6 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 import { NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
+
 import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
 
